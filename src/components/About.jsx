@@ -31,7 +31,7 @@ const About = () => {
                     Hey! My name is Andrew Kallmeyer. I am a current junior, soon to be rising senior at Boston College in Chestnut Hill, MA. I'm majoring in Computer Science with a minor 
                     in Business, and I am working at FreedomPay as a Project Management intern this summer in Philadelphia, my home city. I am also in the Computer Science Society at BC, 
                     putting on educational and community engagement events for the CS community at BC. Outside of class, I am a huge basketball fan (Go Sixers), and I enjoy spending time 
-                    with friends! This page is a host to my professional information as well as some personal projects I've done over the years and information to contact me. Thanks!  
+                    with friends. This page is a host to my professional information as well as some personal projects I've done over the years and information to contact me.  
                 </div>
                 <div class="links">
                     <div class="imgcontainer">
