@@ -100,15 +100,6 @@ nav a:hover {
   width: 100%;
 }
 
-.rescontainer .resumetext {
-  /*margin: 60px 0 0 0;
-  width:800px;
-  line-height: 50px;
-  font-family: "Rubik", sans-serif;
-  font-size: 30px; 
-  font-weight: 400px; */
-}
-
 .betoolcontainer { 
   margin-top: -20px;
   margin-left: -40px;  
@@ -165,7 +156,18 @@ footer {
 
 .vidtext {
   font-size: 30px; 
+  font-weight: 700; 
   line-height: 50px; 
-  font-weight: 400; 
 }
 
+.resleftside {
+  overflow: hidden; 
+}
+
+img.hover-zoom:hover {
+  transform: scale(1.25); 
+}
+
+.abouttitle {
+  font-weight: 700;  
+}

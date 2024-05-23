@@ -1,4 +1,5 @@
 import React from 'react'; 
+import { HashLink as Link } from 'react-router-hash-link'; 
 import logo from "../assets/retrocomp.gif"
 
 const Header = () => {
@@ -13,16 +14,24 @@ const Header = () => {
             <nav>
                 <ul>
                     <li>
-                        About
+                        <Link to="#about" className="link">
+                            About
+                        </Link>
                     </li>
                     <li>
-                        Projects
+                        <Link to="#projects" className="link">
+                            Projects
+                        </Link>
                     </li>
                     <li>
-                        Resume
+                        <Link to="#resume" className="link">
+                            Resume
+                        </Link>
                     </li>
                     <li>
-                        Contact
+                        <Link to="" className="link">
+                            Contact
+                        </Link>
                     </li>
                 </ul>
             </nav>

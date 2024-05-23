@@ -5,17 +5,18 @@ import About from './components/About';
 import Resume from './components/Resume'; 
 import Footer from './components/Footer'; 
 import Projects from './components/Projects'; 
+import { BrowserRouter } from 'react-router-dom';
 
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <Header />
       <About />
       <Resume />
       <Projects />
       <Footer />
-      </div>
+    </BrowserRouter>
   );
 }; 
 
