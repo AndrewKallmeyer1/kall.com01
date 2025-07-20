@@ -9,7 +9,7 @@ const Header = () => {
                 <img src ={logo} alt="logoo" />
             </div>
             <h1>
-                Andrew Kallmeyer
+                ANDREW KALLMEYER
             </h1>
             <nav>
                 <ul>
@@ -29,7 +29,7 @@ const Header = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link to="" className="link">
+                        <Link to="#contact" className="link">
                             Contact
                         </Link>
                     </li>

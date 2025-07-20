@@ -27,8 +27,11 @@ const Resume = () => {
     return (
         <div id="resume" className="rescontainer">
             <div className="resleftside">
+                <h3 class="resume">
+                    Resume
+                </h3>
                 <div className="resumetext">
-                    You can view my resume in full screen by clicking on the image. This website is built in React, which is listed below in a collection of languages and tools that I have experience in. 
+                    You can view my resume in full screen by clicking on the image. Below is a list of my languages, tools, and frameworks. 
                 </div>
                 <h4 class="backendtitle">
                     Backend

@@ -23,7 +23,7 @@ const About = () => {
                         </div>
                         <div>
                             <img src={pres} />
-                            <p className="legend">Presentation</p>
+                            <p className="legend">Getting my degree</p>
                         </div>
                     </Carousel>
                 </div>
@@ -31,10 +31,7 @@ const About = () => {
                     About
                 </h1>
                 <div class="text">
-                    Hey! My name is Andrew Kallmeyer. I am a rising senior at Boston College in Chestnut Hill, MA. I'm majoring in Computer Science with a minor 
-                    in Business, and I am working at FreedomPay as a Project Management intern this summer in Philadelphia, my home city. I am also in the Computer Science Society at BC, 
-                    putting on educational and community engagement events for the CS community at BC. Outside of class, I am a huge basketball fan (Go Sixers), and I enjoy spending time 
-                    with friends. This page is a host to my professional information as well as some personal projects I've done over the years and information to contact me.  
+                    My name is Andrew Kallmeyer. Born and raised in Philadelphia, I recently acheived my Bachelor's of Science in Computer Science and a minor in Business from Boston College in Chestnut Hill, MA. I've spent my academic career learning and executing full stack development, and have since combined this knowledge with my leadership and communication skills to work in project management at FreedomPay, a global payments securer and provider that works with some of the biggest hospitality, food service, and retail clients in the world. Currently, I am a PM intern at FP training to become a full-time Scrum Master in August 2025. 
                 </div>
                 <div class="links">
                     <div class="imgcontainer">

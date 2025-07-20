@@ -3,8 +3,8 @@
 }
 
 header {
-  background-color: rgb(143, 176, 215); 
-  padding: 0px 0; 
+  background: linear-gradient(to bottom, rgb(169, 219, 206), whitesmoke);
+  padding: 0px 10; 
   display: flex; 
   justify-content: space-between; 
   align-items: center; 
@@ -94,6 +94,7 @@ nav a:hover {
 
 .photoviewer {
   flex: 1; 
+  padding-top: 60px; 
 }
 
 .rescontainer .photoviewer img {
@@ -170,4 +171,111 @@ img.hover-zoom:hover {
 
 .abouttitle {
   font-weight: 700;  
+}
+
+.proj-section {
+  background-color: whitesmoke;
+  padding: 100px; 
+  font-family: "Rubik", sans-serif; 
+}
+
+.section-title {
+  font-size: 36px; 
+  font-weight: 700; 
+  margin-bottom: 60px; 
+}
+
+.project-row {
+  display: flex; 
+  align-items: flex-start;
+  margin-bottom: 60px; 
+}
+
+.project-image {
+  width: 40%; 
+  height: auto;
+  border-radius: 12px; 
+  margin-right: 40px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.project-description {
+  flex: 1; 
+  font-size: 18px; 
+  line-height: 1.6;
+}
+
+.project-description h4 {
+  font-size: 24px; 
+  font-weight: 600; 
+  margin-bottom : 10px;
+}
+
+.hover-zoom {
+  transition: transform 0.4s ease, box-shadow 0.4s ease; 
+  cursor: pointer; 
+}
+
+.hover-zoom:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.contact-section {
+  background-color: #f2f2f2;
+  padding: 100px;
+  font-family: "Rubik", sans-serif;
+  text-align: center; 
+}
+
+.contact-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;  
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;  /* Stack inputs vertically */
+  gap: 20px;               /* Vertical space between fields */
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+}
+
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;  /* Stack label text above input */
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%; 
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  font-family: inherit; 
+  font-size: 16px;
+}
+
+.contact-form button {
+  width: fit-content;
+  align-self: flex-start;
+  padding: 12px 24px; 
+  background-color: #2a9d8f;
+  color: white; 
+  border: none; 
+  border-radius: 8px;
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+.contact form button:hover {
+  background-color: #21867a;
 }

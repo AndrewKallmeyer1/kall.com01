@@ -5,6 +5,7 @@ import About from './components/About';
 import Resume from './components/Resume'; 
 import Footer from './components/Footer'; 
 import Projects from './components/Projects'; 
+import Contact from './components/Contact';
 import { BrowserRouter } from 'react-router-dom';
 
 
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Resume />
       <Projects />
+      <Contact />
       <Footer />
     </BrowserRouter>
   );
